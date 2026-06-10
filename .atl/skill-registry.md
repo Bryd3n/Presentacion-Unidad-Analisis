@@ -1,0 +1,41 @@
+# Skill Registry
+
+This project has access to the following skills in the local/global registry:
+
+- alphafold-database-fetch-and-analyze
+- alphagenome-single-variant-analysis
+- chembl-database
+- clinical-trials-database
+- clinvar-database
+- dbsnp-database
+- embl-ebi-ols
+- encode-ccres-database
+- ensembl-database
+- foldseek-structural-search
+- gnomad-database
+- gtex-database
+- human-protein-atlas-database
+- interpro-database
+- jaspar-database
+- literature-search-arxiv
+- literature-search-biorxiv
+- literature-search-europepmc
+- literature-search-openalex
+- ncbi-sequence-fetch
+- openfda-database
+- opentargets-database
+- pdb-database
+- protein-sequence-msa
+- protein-sequence-similarity-search
+- pubchem-database
+- pubmed-database
+- pymol
+- quickgo-database
+- reactome-database
+- science-skills-common
+- string-database
+- ucsc-conservation-and-tfbs
+- unibind-database
+- uniprot-database
+- uv
+- workflow-skill-creator
