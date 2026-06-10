@@ -1,7 +1,7 @@
 {
-  "name": "presentacion-workshop1-farmahumana",
+  "name": "presentacion-unidad-analisis",
   "version": "1.0.0",
-  "description": "Presentación modular del Ecosistema Digital FarmaHumana",
+  "description": "Presentación académica de Metodología de la Investigación",
   "type": "module",
   "scripts": {
     "dev": "vite",
