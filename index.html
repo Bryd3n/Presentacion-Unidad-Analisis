@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO & Metatags -->
+  <title>Unidad de Análisis - Presentación Académica</title>
+  <meta name="description" content="Presentación académica sobre el concepto metodológico de Unidad de Análisis." />
+  <meta name="keywords" content="Unidad de Análisis, Metodología, Investigación, Académico" />
+  <meta name="author" content="Presentador Académico" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/logo.png" />
+
+  <!-- Google Fonts para asegurar alta legibilidad en cualquier dispositivo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* Asegurar que la tipografía de Google Fonts sea la predeterminada antes de compilar tailwind */
+    body {
+      font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-academic-bg text-academic-dark overflow-hidden">
+  
+  <!-- Estructura Principal de Reveal.js -->
+  <div class="reveal">
+    <div class="slides">
+      <!-- Los slides se inyectan dinámicamente desde src/main.js -->
+      <div class="flex items-center justify-center h-full w-full">
+        <div class="text-academic-dark/60 font-semibold animate-pulse text-lg">
+          Cargando presentación académica...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Entrypoint de Javascript compilado por Vite -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

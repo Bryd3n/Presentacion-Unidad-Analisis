@@ -1,0 +1,26 @@
+MANUAL DE ESTILO Y EJECUCIÓN: PRESENTACIONES DE ALTO IMPACTO (ESTILO GOOGLE I/O)
+
+Este documento detalla las directrices técnicas y de diseño para replicar la estética y funcionalidad de las presentaciones de eventos tecnológicos de alto nivel, como el Google I/O.
+
+1. FUNDAMENTOS DE DISEÑO (DESIGN SYSTEM)
+   - Minimalismo: Priorizar espacios en blanco (whitespace) para evitar la sobrecarga cognitiva.
+   - Tipografía: Utilizar familias tipográficas de alta legibilidad (ej. Google Sans/Helvetica Neue). Emplear pesos (bold) y tamaños contrastantes para jerarquizar.
+   - Paleta de Colores: Restringida y semántica. Los colores deben cumplir una función (ej. color primario para acción/enfoque, secundario para soporte técnico).
+
+2. ARQUITECTURA DE ANIMACIÓN (MOTION DESIGN)
+   - Easing Orgánico: Implementar curvas de aceleración (bezier curves) personalizadas. Evitar animaciones lineales; el movimiento debe ser suave al inicio, rápido en el centro y preciso al finalizar.
+   - Staggering (Animaciones Escalonadas): No mover elementos en bloque. Aplicar retrasos (delays) sutiles entre componentes para guiar el ojo del espectador de forma natural.
+   - Transformación de Estados (Morphing): Los elementos deben transformarse fluidamente entre estados (ej. ícono a contenedor de texto) para mantener la continuidad narrativa.
+
+3. INTEGRACIÓN TÉCNICA Y EJECUCIÓN
+   - Renderizado Vectorial: Utilizar formatos escalables (SVG) para garantizar nitidez total en cualquier resolución.
+   - Motor de Animación: Implementar librerías de alto rendimiento (como GSAP) para manejar líneas de tiempo complejas.
+   - Sincronización (Timecode): La presentación debe estar sincronizada con el discurso. Las animaciones no deben ser aleatorias, sino disparadas exactamente al mencionar conceptos clave.
+
+4. USABILIDAD EN PANTALLA
+   - Diseño Interactivo: Aplicar principios de UI (botones de tamaño generoso, áreas de foco claras) incluso en presentaciones estáticas.
+   - Legibilidad a Distancia: Ajustar tamaños de fuente y contraste pensando en pantallas de gran formato (LED Walls).
+
+5. NOTAS PARA EL DESARROLLADOR
+   - Centralizar la lógica de animaciones para permitir cambios globales.
+   - Evitar el "clutter" (exceso de información); si un concepto es complejo, dividirlo en múltiples estados (diapositivas) en lugar de saturar un solo frame.

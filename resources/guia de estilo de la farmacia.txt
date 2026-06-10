@@ -1,0 +1,21 @@
+ESPECIFICACIÓN TÉCNICA: GUÍA DE ESTILOS FARMAHUMANA
+
+1. TIPOGRAFÍA
+   - H1: Helvetica Neue 97 Black Condensed, 24px [cite: 2]
+   - H2: Helvetica Neue 97 Black Condensed, 20px [cite: 7]
+   - H3: Helvetica Neue LT Std, 16px [cite: 8]
+   - H4: Helvetica Neue LT Std, 14px [cite: 11]
+
+2. PALETA DE COLORES (HEX)
+   - Color Primario (Fondo/Acentos): #F6FFFF [cite: 3]
+   - Color Secundario (Acentos/UI): #50E9F8 [cite: 6]
+   - Color Tipográfico/Marca (Oscuro): #00006A [cite: 9]
+   - Color Funcional (Éxito/Acción): #179150 [cite: 12]
+
+3. ELEMENTOS DE INTERFAZ (UI)
+   - Barra de búsqueda: Placeholder "Buscar en Farmahumana" [cite: 19]
+   - Botón de acción: "Iniciar sesión" [cite: 21]
+   - Selector de filtro: "Todos" [cite: 18]
+
+4. NOTAS DE IMPLEMENTACIÓN
+   - La guía de estilos está definida bajo la referencia "Guía de estilos FARMAHUMANA - Semana 1"[cite: 1].

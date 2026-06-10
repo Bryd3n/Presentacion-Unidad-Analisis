@@ -1,0 +1,21 @@
+sdd:
+  mode: openspec
+  delivery_strategy: ask-on-risk
+project:
+  stack:
+    language: javascript
+    framework: vite, reveal.js
+    styling: tailwindcss
+    animation: gsap
+  architecture: "Frontend Web Presentation"
+testing:
+  strict_tdd: false
+  runner: null
+  linting: null
+  formatting: null
+  capabilities:
+    unit: false
+    integration: false
+    e2e: false
+    visual: false
+  notes: "No testing runner detected. Testing currently unavailable."

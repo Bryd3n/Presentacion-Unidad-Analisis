@@ -1,0 +1,32 @@
+RESUMEN: ECOSISTEMA DIGITAL FARMAHUMANA - WORKSHOP #1
+
+1. VISIÓN GENERAL
+   - El proyecto busca digitalizar el ecosistema que conecta al PACIENTE, MÉDICO y FARMACIA[cite: 26, 45].
+   - Se compone de dos herramientas principales: E-Commerce y Medication Tracker[cite: 27, 209, 210].
+
+2. E-COMMERCE: PROBLEMAS Y SOLUCIONES
+   - Problemas detectados: Falta de adopción tecnológica, ausencia de canal digital propio, baja retención de clientes, falta de precios actualizados y dependencia de una base de datos (BD) legacy[cite: 30, 31, 32, 33, 34, 35, 36].
+   - Objetivo: Crear una plataforma B2C con motor de IA, panel de administración, soporte multimoneda y arquitectura no invasiva[cite: 48, 49, 50, 51, 52, 75].
+   - Limitaciones: Restringido a 3 roles y pagos externos; sufre latencia por BD de solo lectura[cite: 77, 78].
+
+3. MEDICATION TRACKER: PROBLEMAS Y SOLUCIONES
+   - Problemas detectados: Uso de recetas físicas (susceptibilidad), falta de adherencia al tratamiento y fuga de ventas[cite: 38, 39, 40, 41].
+   - Objetivo: Aplicación móvil para fidelización, emisión de recetas digitales, cálculo de posología y seguimiento de medicación[cite: 63, 64, 65, 66].
+   - Limitaciones: No altera dosis, no realiza ventas directas (redirecciona a la web) y requiere un plan de contingencia para biometría[cite: 83, 84].
+
+4. DISEÑO Y CONFIANZA
+   - El diseño es la primera capa de confianza. En el E-Commerce debe asegurar la seguridad de la compra[cite: 211, 212, 214, 215].
+   - En el Medication Tracker, debe eliminar al instante la duda sobre la protección de los datos médicos[cite: 207, 216, 217, 218].
+   - Se establecen estándares como botones mínimos de 44x44dp para entornos clínicos[cite: 305].
+
+5. STACK TECNOLÓGICO
+   - E-Commerce: JavaScript, React, Python, FastAPI y PostgreSQL[cite: 328, 330, 342, 343, 349].
+   - Medication Tracker: JavaScript, React Native, Python, FastAPI, SQLite y PostgreSQL[cite: 338, 339, 345, 346, 351].
+
+6. ORGANIZACIÓN DEL EQUIPO
+   - El proyecto cuenta con un Lider Técnico y un Lider de Requerimientos al mando[cite: 308, 309, 310].
+   - La estructura incluye Lideres y Coaches especializados en Front, Middleware, Backend y QA[cite: 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322].
+
+7. PLANIFICACIÓN (GANTT)
+   - E-Commerce: Proyecto de 54 días. Fases: Cimientos (semanas 1-2), Tienda Core (semanas 3-4) y Sincronización/IA (semanas 5-9)[cite: 422, 424, 426, 430, 434].
+   - Medication Tracker: Fases: Cimientos técnicos (semanas 1-3), Lógica clínica (semanas 4-6) y UX-UI/Pruebas (semanas 7-9)[cite: 449, 450, 454, 455, 456].
