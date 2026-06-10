@@ -45,7 +45,7 @@
         </div>
         <div class="flex-1 relative w-full">
           <div class="absolute inset-0 bg-academic-primary/5 rounded-3xl transform rotate-3"></div>
-          <img src="/academic/academic_magnifying_glass_1781116518330.png" alt="Magnifying Glass" class="relative z-10 rounded-3xl shadow-2xl object-cover w-full h-[500px] border border-white/50" />
+          <img src="/Presentacion-Unidad-Analisis/academic/academic_magnifying_glass_1781116518330.png" alt="Magnifying Glass" class="relative z-10 rounded-3xl shadow-2xl object-cover w-full h-[500px] border border-white/50" />
         </div>
       </div>
     </section>
@@ -95,7 +95,7 @@
         
         <div class="flex flex-col md:flex-row gap-10 items-center justify-center">
           <div class="flex-[2]">
-            <img src="/academic/types_of_units_1781116528275.png" alt="Types of Units" class="rounded-3xl shadow-xl border border-white/50 w-full object-cover max-h-[500px]" />
+            <img src="/Presentacion-Unidad-Analisis/academic/types_of_units_1781116528275.png" alt="Types of Units" class="rounded-3xl shadow-xl border border-white/50 w-full object-cover max-h-[500px]" />
           </div>
           
           <div class="flex-[3] grid grid-cols-2 gap-4 text-left">
@@ -155,7 +155,7 @@
             </div>
           </div>
           <div class="flex-[2] flex items-center justify-center">
-            <img src="/academic/examples_chart_1781116543346.png" alt="Examples" class="rounded-3xl shadow-xl w-full object-cover max-h-[500px]" />
+            <img src="/Presentacion-Unidad-Analisis/academic/examples_chart_1781116543346.png" alt="Examples" class="rounded-3xl shadow-xl w-full object-cover max-h-[500px]" />
           </div>
         </div>
       </div>
