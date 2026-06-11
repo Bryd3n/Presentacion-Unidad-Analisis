@@ -257,3 +257,126 @@ export function falaciaEcologicaSlide() {
     </section>
   `;
 }
+
+export function alineacionMetodologicaSlide() {
+  return `
+    <section class="h-full w-full bg-white flex flex-col justify-center">
+      <div class="w-full px-12 mx-auto">
+        <div class="mb-10 text-left">
+          <h2 class="text-5xl md:text-6xl font-bold text-academic-dark mb-4 tracking-tight">Alineación Metodológica</h2>
+          <p class="text-2xl text-academic-primary font-medium">La Regla de Oro de la Investigación</p>
+        </div>
+        
+        <div class="bg-academic-bg p-8 rounded-3xl border border-academic-primary/10 shadow-sm flex flex-col md:flex-row items-center gap-10">
+          <div class="flex-1">
+            <h3 class="text-3xl font-bold text-academic-dark mb-6 text-left">Coherencia Interna</h3>
+            <p class="text-xl text-academic-dark/70 text-left leading-relaxed mb-6">
+              La <strong>Pregunta de Investigación</strong>, los <strong>Objetivos</strong> y la <strong>Unidad de Análisis</strong> deben estar 100% sincronizados. Es la razón principal por la que los jurados rechazan trabajos de grado.
+            </p>
+            <div class="bg-red-50 p-6 rounded-xl border-l-4 border-red-500 text-left">
+              <p class="text-red-800 font-medium">❌ Error Común:</p>
+              <p class="text-red-700/80 mt-2">Preguntar sobre la "Cultura Organizacional" (Nivel Macro) y seleccionar como unidad de análisis a "un solo empleado" (Nivel Micro).</p>
+            </div>
+          </div>
+          
+          <div class="flex-1 flex flex-col gap-4 w-full">
+            <div class="bg-white p-5 rounded-xl shadow-sm flex items-center gap-4 border border-gray-100">
+              <div class="bg-academic-primary/10 w-12 h-12 flex items-center justify-center rounded-lg text-academic-primary font-bold">1</div>
+              <div class="text-left">
+                <div class="font-bold text-academic-dark">Pregunta</div>
+                <div class="text-sm text-gray-500">¿Qué quiero saber?</div>
+              </div>
+            </div>
+            <div class="flex justify-center -my-2 z-10"><div class="w-1 h-6 bg-gray-300"></div></div>
+            <div class="bg-white p-5 rounded-xl shadow-sm flex items-center gap-4 border border-gray-100">
+              <div class="bg-academic-accent/10 w-12 h-12 flex items-center justify-center rounded-lg text-academic-accent font-bold">2</div>
+              <div class="text-left">
+                <div class="font-bold text-academic-dark">Objetivo</div>
+                <div class="text-sm text-gray-500">¿Qué voy a lograr?</div>
+              </div>
+            </div>
+            <div class="flex justify-center -my-2 z-10"><div class="w-1 h-6 bg-gray-300"></div></div>
+            <div class="bg-white p-5 rounded-xl shadow-sm flex items-center gap-4 border border-academic-primary/30 ring-2 ring-academic-primary/20">
+              <div class="bg-academic-cyan/10 w-12 h-12 flex items-center justify-center rounded-lg text-academic-cyan font-bold">3</div>
+              <div class="text-left">
+                <div class="font-bold text-academic-primary">Unidad de Análisis</div>
+                <div class="text-sm text-academic-dark/70">¿A quién o a qué voy a estudiar?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+export function reduccionismoSlide() {
+  return `
+    <section class="h-full w-full bg-academic-bg flex flex-col justify-center">
+      <div class="w-full px-12 mx-auto">
+        <div class="mb-10 text-left">
+          <h2 class="text-5xl md:text-6xl font-bold text-academic-dark mb-4 tracking-tight">El Reduccionismo</h2>
+          <p class="text-2xl text-academic-accent font-medium">El error inverso a la Falacia Ecológica</p>
+        </div>
+        
+        <div class="flex flex-col md:flex-row gap-12 items-center">
+          <div class="flex-[2] flex justify-center">
+             <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-center w-full">
+              <div class="w-full flex justify-between items-center px-4 mb-4">
+                <div class="text-center">
+                  <div class="text-4xl mb-2">🧑</div>
+                  <div class="font-bold text-academic-dark">Dato Individual</div>
+                </div>
+                <div class="text-orange-500 font-bold text-2xl">≠</div>
+                <div class="text-center">
+                  <div class="text-4xl mb-2">📊</div>
+                  <div class="font-bold text-academic-dark">Sistema Grupal</div>
+                </div>
+              </div>
+              <div class="bg-orange-50 w-full p-4 rounded-xl border border-orange-100">
+                <p class="text-sm text-orange-800 italic">Ejemplo clásico: Creer que se puede entender la economía macroeconómica de todo un país evaluando únicamente el presupuesto y los gastos de una sola familia.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex-[3] text-left">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-orange-500 mb-6">
+              <p class="text-2xl text-academic-dark/80 leading-relaxed">
+                El <strong class="text-orange-600">reduccionismo</strong> ocurre cuando intentamos explicar el comportamiento de un <strong class="text-academic-accent">sistema complejo (macro)</strong> basándonos exclusivamente en el estudio de sus <strong class="text-academic-primary">partes individuales (micro)</strong>.
+              </p>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-academic-dark mb-4">Consecuencias</h3>
+            <ul class="space-y-4 text-xl text-academic-dark/70 list-disc pl-6">
+              <li>Se pierde la "visión de bosque" por mirar solo "el árbol".</li>
+              <li>Se ignoran las propiedades emergentes del grupo (dinámicas sociales que no existen a nivel individual).</li>
+              <li>Genera conclusiones insuficientes o sesgadas sobre fenómenos a gran escala.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+export function cierreSlide() {
+  return `
+    <section class="h-full w-full bg-academic-primary flex flex-col items-center justify-center text-white relative overflow-hidden">
+      <div class="absolute inset-0 bg-black/10"></div>
+      <div class="relative z-10 w-full px-12 mx-auto text-center flex flex-col items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-28 w-auto object-contain rounded mb-8 shadow-lg ring-4 ring-white/20 bg-white" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
+        
+        <h2 class="text-6xl md:text-8xl font-bold mb-6 tracking-tight drop-shadow-md">¡Muchas Gracias!</h2>
+        <div class="h-1 w-40 bg-academic-accent rounded-full mb-8 mx-auto"></div>
+        <p class="text-3xl text-white/90 font-light mb-12">¿Tienen alguna pregunta?</p>
+        
+        <div class="flex flex-wrap justify-center gap-6 text-xl font-medium text-white/80">
+          <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Brayan Carreño</span>
+          <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Samuel Silva</span>
+          <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Jebel Ruiz</span>
+          <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Abraham Orta</span>
+        </div>
+      </div>
+    </section>
+  `;
+}

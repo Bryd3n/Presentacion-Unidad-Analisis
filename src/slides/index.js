@@ -1,4 +1,4 @@
-import { titleSlide, conceptSlide, typesSlide, examplesSlide, observacionVsAnalisisSlide, falaciaEcologicaSlide } from './unidad_analisis.js';
+import { titleSlide, conceptSlide, typesSlide, examplesSlide, observacionVsAnalisisSlide, falaciaEcologicaSlide, alineacionMetodologicaSlide, reduccionismoSlide, cierreSlide } from './unidad_analisis.js';
 
 export function buildSlidesHTML() {
   return `
@@ -8,5 +8,8 @@ export function buildSlidesHTML() {
     ${examplesSlide()}
     ${observacionVsAnalisisSlide()}
     ${falaciaEcologicaSlide()}
+    ${alineacionMetodologicaSlide()}
+    ${reduccionismoSlide()}
+    ${cierreSlide()}
   `;
 }
