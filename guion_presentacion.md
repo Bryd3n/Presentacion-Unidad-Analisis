@@ -6,7 +6,7 @@
 
 ## 1. Portada (Unidad de Análisis)
 **Expositor:**
-"Buenos días a todos. Nosotros somos Brayan Carreño, Samuel Silva, Jebel Ruiz y Abraham Orta, estudiantes de la UNEG. Hoy vamos a hablar sobre un concepto fundamental en el Seminario de Investigación: La Unidad de Análisis. Básicamente, vamos a entender el 'qué' o el 'quién' estamos estudiando."
+"Buenos días a todos. Nosotros somos Brayan Carreño, Samuel Silva, Jebel Ruiz, Abraham Orta y Eduardo Quintero, estudiantes de la UNEG. Hoy vamos a hablar sobre un concepto fundamental en el Seminario de Investigación: La Unidad de Análisis. Básicamente, vamos a entender el 'qué' o el 'quién' estamos estudiando."
 
 ---
 

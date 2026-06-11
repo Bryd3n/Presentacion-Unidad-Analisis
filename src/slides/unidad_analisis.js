@@ -32,6 +32,10 @@ export function titleSlide() {
               <div class="w-2 h-2 rounded-full bg-academic-accent"></div>
               Abraham Orta
             </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 rounded-full bg-academic-accent"></div>
+              Eduardo Quintero
+            </div>
           </div>
         </div>
         <div class="flex-1 relative w-full">
@@ -375,6 +379,7 @@ export function cierreSlide() {
           <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Samuel Silva</span>
           <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Jebel Ruiz</span>
           <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Abraham Orta</span>
+          <span class="bg-white/10 px-6 py-2 rounded-full backdrop-blur-sm border border-white/20">Eduardo Quintero</span>
         </div>
       </div>
     </section>
