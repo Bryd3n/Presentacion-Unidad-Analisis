@@ -1,12 +1,12 @@
 export function titleSlide() {
   return `
     <section class="h-full w-full bg-academic-bg flex items-center justify-center relative">
-      <div class="absolute top-8 left-8">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-20 w-auto object-contain rounded" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
+      <div class="absolute top-8 left-12">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-16 w-auto object-contain rounded" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
       </div>
-      <div class="w-full px-12 mx-auto py-8 flex flex-col md:flex-row items-center gap-12">
+      <div class="w-full px-12 mx-auto pt-32 pb-8 flex flex-col md:flex-row items-center gap-12">
         <div class="flex-1 text-left flex flex-col justify-center">
-          <span class="inline-block px-4 py-2 bg-academic-primary/10 text-academic-primary rounded-full text-sm font-semibold tracking-wider mb-6 w-max">METODOLOGÍA DE LA INVESTIGACIÓN</span>
+          <span class="inline-block px-4 py-2 bg-academic-primary/10 text-academic-primary rounded-full text-sm font-semibold tracking-wider mb-6 w-max">SEMINARIO DE INVESTIGACIÓN</span>
           <h1 class="text-6xl md:text-8xl font-bold text-academic-dark leading-tight mb-6 tracking-tight">
             Unidad de Análisis
           </h1>
