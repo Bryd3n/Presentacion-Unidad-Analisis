@@ -2,7 +2,7 @@ export function titleSlide() {
   return `
     <section class="h-full w-full bg-academic-bg flex items-center justify-center relative">
       <div class="absolute top-8 left-8">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-20 w-auto object-contain rounded" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-20 w-auto object-contain rounded" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
       </div>
       <div class="w-full px-12 mx-auto py-8 flex flex-col md:flex-row items-center gap-12">
         <div class="flex-1 text-left flex flex-col justify-center">
@@ -364,7 +364,7 @@ export function cierreSlide() {
     <section class="h-full w-full bg-academic-primary flex flex-col items-center justify-center text-white relative overflow-hidden">
       <div class="absolute inset-0 bg-black/10"></div>
       <div class="relative z-10 w-full px-12 mx-auto text-center flex flex-col items-center justify-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-28 w-auto object-contain rounded mb-8 shadow-lg ring-4 ring-white/20 bg-white" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/LOGO_UNEG.jpg" alt="UNEG Logo" class="h-28 w-auto object-contain rounded mb-8 shadow-lg ring-4 ring-white/20 bg-white" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Logo-UNEG.jpg/800px-Logo-UNEG.jpg'" />
         
         <h2 class="text-6xl md:text-8xl font-bold mb-6 tracking-tight drop-shadow-md">¡Muchas Gracias!</h2>
         <div class="h-1 w-40 bg-academic-accent rounded-full mb-8 mx-auto"></div>
