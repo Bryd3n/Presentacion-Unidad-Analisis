@@ -11,8 +11,8 @@ export default {
           bg: '#F8FAFC',
           cyan: '#38BDF8',
           dark: '#0F172A',
-          primary: '#2563EB',
-          accent: '#0284C7'
+          primary: '#1E3A8A', // UNEG Blue
+          accent: '#EAB308'   // UNEG Yellow
         }
       },
       fontFamily: {

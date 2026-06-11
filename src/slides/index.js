@@ -1,4 +1,4 @@
-import { titleSlide, conceptSlide, typesSlide, examplesSlide } from './unidad_analisis.js';
+import { titleSlide, conceptSlide, typesSlide, examplesSlide, observacionVsAnalisisSlide, falaciaEcologicaSlide } from './unidad_analisis.js';
 
 export function buildSlidesHTML() {
   return `
@@ -6,5 +6,7 @@ export function buildSlidesHTML() {
     ${conceptSlide()}
     ${typesSlide()}
     ${examplesSlide()}
+    ${observacionVsAnalisisSlide()}
+    ${falaciaEcologicaSlide()}
   `;
 }

@@ -1,13 +1,37 @@
+schema: spec-driven
 sdd:
   mode: openspec
   delivery_strategy: ask-on-risk
-project:
-  stack:
-    language: javascript
-    framework: vite, reveal.js
-    styling: tailwindcss
-    animation: gsap
-  architecture: "Frontend Web Presentation"
+
+context: |
+  Tech stack: JavaScript (Node.js), Vite, Reveal.js, Tailwind CSS, GSAP
+  Architecture: Frontend Web Presentation
+  Testing: No runner detected
+  Style: Default
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+  design:
+    - Include sequence diagrams for complex flows
+    - Document architecture decisions with rationale
+  tasks:
+    - Group by phase, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    - Follow existing code patterns
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: "npm run build"
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas
+
 testing:
   strict_tdd: false
   runner: null
@@ -18,4 +42,3 @@ testing:
     integration: false
     e2e: false
     visual: false
-  notes: "No testing runner detected. Testing currently unavailable."
