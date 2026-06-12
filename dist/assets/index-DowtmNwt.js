@@ -37,7 +37,10 @@
       </div>
       <div class="w-full px-12 mx-auto pt-32 pb-8 flex flex-col md:flex-row items-center gap-12">
         <div class="flex-1 text-left flex flex-col justify-center">
-          <span class="inline-block px-4 py-2 bg-academic-primary/10 text-academic-primary rounded-full text-sm font-semibold tracking-wider mb-6 w-max">SEMINARIO DE INVESTIGACIÓN</span>
+          <div class="flex flex-wrap gap-3 mb-6">
+            <span class="inline-block px-4 py-2 bg-academic-primary/10 text-academic-primary rounded-full text-sm font-semibold tracking-wider">SEMINARIO DE INVESTIGACIÓN</span>
+            <span class="inline-block px-4 py-2 bg-academic-accent/10 text-academic-accent rounded-full text-sm font-semibold tracking-wider">GRUPO 6</span>
+          </div>
           <h1 class="text-6xl md:text-8xl font-bold text-academic-dark leading-tight mb-6 tracking-tight">
             Unidad de Análisis
           </h1>
